@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 10 00:04:09 2021
-
-@author: kolhe
-"""
-
-"""
-GET: http://127.0.0.1:5000/
-POST: http://127.0.0.1:5000/
-"""
-
-
-
 import numpy as np
 from flask import Flask, request, jsonify
 import pickle
