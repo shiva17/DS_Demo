@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 # # takes 3 params
 
 # @app.route('/')
